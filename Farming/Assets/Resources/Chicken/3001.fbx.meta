@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 658b2f07bd2b077458d7ee03e084bf91
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -811993363386022681
+    second: Monster_002_ji_Idle
+  - first:
+      74: 8346268437284969410
+    second: Monster_101_ji_Move
+  - first:
+      74: -5515614850757231904
+    second: Monster_002_ji_Hit
+  - first:
+      74: -3949956823251829226
+    second: Monster_002_ji_Death
+  - first:
+      74: 5980265378645497230
+    second: Monster_002_ji_Attack
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: 3001(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monster_101_Ji
+      parentName: 3001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001
+      parentName: Monster_101_Ji
+      position: {x: 0.0000017297267, y: 0.0032907836, z: -0.0012446411}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bip001 Pelvis
+      parentName: Bip001
+      position: {x: -0.001244641, y: -0.0000000017062869, z: 0}
+      rotation: {x: -0.49999967, y: 0.50000036, z: 0.49999967, w: 0.50000036}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 Spine
+      parentName: Bip001 Pelvis
+      position: {x: -0.00023864058, y: 0.0007145869, z: -0.0000000015014783}
+      rotation: {x: -0.0000020016923, y: 0.0000018965998, z: -0.5943984, w: 0.8041707}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_ChiBang_L
+      parentName: Bip001 Spine
+      position: {x: -0.0011066161, y: -0.0010002702, z: 0.0009853942}
+      rotation: {x: 0.11828932, y: 0.11280156, z: -0.84634465, w: 0.50693613}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bip001 Tail
+      parentName: Bip001 Spine
+      position: {x: 0.0010772216, y: -0.0008917747, z: 2.2277236e-10}
+      rotation: {x: -0.0000005986511, y: -0.0000033672625, z: 0.98054415, w: 0.19629861}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Neck
+      parentName: Bip001 Spine
+      position: {x: -0.002024287, y: -0.00044124413, z: -0.0000000018402933}
+      rotation: {x: -0.00000067176575, y: -0.0000030140675, z: 0.5438056, w: 0.8392112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Head
+      parentName: Bip001 Neck
+      position: {x: -0.0016592871, y: 0.0005528167, z: 0.0000000017130747}
+      rotation: {x: -0.000000021098078, y: -0.0000027637648, z: 0.684194, w: 0.7293001}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 L Thigh
+      parentName: Bip001 Spine
+      position: {x: 0.00075315335, y: 0.00001849098, z: 0.00070501555}
+      rotation: {x: -0.026126595, y: 0.023708684, z: -0.8619057, w: 0.5058398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Calf
+      parentName: Bip001 L Thigh
+      position: {x: -0.0019669463, y: 0, z: 4.7683715e-11}
+      rotation: {x: -0.0048967726, y: 0.014740694, z: 0.19156073, w: 0.98135793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Foot
+      parentName: Bip001 L Calf
+      position: {x: -0.0010305459, y: 0, z: -4.7683715e-11}
+      rotation: {x: 0.99579847, y: -0.08705933, z: 0.009308602, w: 0.026824895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ChiBang_R
+      parentName: Bip001 Spine
+      position: {x: -0.001106611, y: -0.0010002627, z: -0.0009854072}
+      rotation: {x: -0.506936, y: 0.8463454, z: -0.11280107, w: -0.11828476}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 R Thigh
+      parentName: Bip001 Spine
+      position: {x: 0.00075315556, y: 0.00001849594, z: -0.0007050114}
+      rotation: {x: 0.02651724, y: -0.023236461, z: -0.8619126, w: 0.5058296}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bip001 R Calf
+      parentName: Bip001 R Thigh
+      position: {x: -0.001966946, y: 0, z: 0}
+      rotation: {x: 0.0049826107, y: -0.015000685, z: 0.19155523, w: 0.9813546}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bip001 R Foot
+      parentName: Bip001 R Calf
+      position: {x: -0.0010305459, y: 9.536743e-11, z: -4.7683715e-11}
+      rotation: {x: 0.9958066, y: -0.0870097, z: -0.008970393, w: -0.026799278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monster_101_Ji 1
+      parentName: Monster_101_Ji
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Monster_101_Ji_0
+      parentName: Monster_101_Ji 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Monster_101_Ji
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

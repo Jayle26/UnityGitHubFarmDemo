@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ae244611bd4f348a9624c6372a863b, type: 3}
+  m_Name: Quip_sickle
+  m_EditorClassIdentifier: 
+  itemID: 1001
+  itemName: "\u9570\u5200"
+  itemImage: {fileID: 21300000, guid: 6aea97aa02165da4cb174b256fcea504, type: 3}
+  itemType: 1
+  itemNum: 0
+  itemEffect: 
+  itemSellPrice: 35
+  itemBuyPrice: 50
+  itemDescription: "\u53EF\u4EE5\u7528\u6765\u6740\u9E21\u6765\u83B7\u53D6\u9E21\u817F\uFF01"

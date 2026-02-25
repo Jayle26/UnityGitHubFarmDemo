@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2a609d9bb8a04c54cab51906515a5359
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - chicken: {fileID: 5535476981952886191, guid: f498f508e284fb845b9d339873130270,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
